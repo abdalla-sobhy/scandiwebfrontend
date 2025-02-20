@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/graphql",
+        "destination": "http://scandiwebtest.mooo.com/api/graphql.php"
+      }
+    ]
+  }
+  
