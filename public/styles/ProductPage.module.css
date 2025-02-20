@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+.leftPart{
+    width: 79px;
+    height: 29rem;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.mainImage{
+    width: 30rem;
+    height: 29rem;
+    display: flex;
+    justify-content: center;
+}
+.sizeBox{
+    width: 63px;
+    height: 45px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.colorBox{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.pageContent{
+    justify-content: center;
+    width: 88%;
+    gap: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.productName{
+    width: 400px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+}
+.sizeAndColorAndPriceWordCSS{
+    width: 38px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+.leftRightArrwosDiv{
+    width: 28rem;
+    height: 29rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+}
+.addToCartButtonDiv{
+    width: 292px;
+    height: 52px;
+    background-color: #5ECE7B;
+    color: white;
+}
+.underButtonText{
+    display: flex;
+    padding-bottom: 1.6rem;
+    text-align: left;
+    width: 300px;
+    display: inline-block;
+    max-width: 297px;
+    overflow-wrap: break-word;
+}
