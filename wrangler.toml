@@ -1,0 +1,14 @@
+name = "scandiweb-frontend"
+type = "javascript"  # or "webpack" for older setups
+
+[build]
+command = "npm run build" # or "yarn build" if you use yarn
+watch_dir = "dist"
+
+[site]
+bucket = "./dist"  # Change this to your actual build output folder
+entry-point = "./dist/index.html"
+
+[env.production]
+route = "scandiwebtest.mooo.com/*"
+zone_id = "your_cloudflare_zone_id" # (Find it in your Cloudflare dashboard)
